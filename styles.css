@@ -1,16 +1,25 @@
 body {
     background-image: url('img/bolty.png');
     background-repeat: repeat;
+    background-size: 150px 150px;
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Times New Roman', serif;
-    color: white;
     font-size: 48px;
+    cursor: url('img/penguin-cursor.gif'), auto;
 }
 
 .center-text {
     text-align: center;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+    color: red;
+}
+
+.under-construction-image {
+    margin: 10px 0;
+    width: auto;
+    height: auto;
 }
